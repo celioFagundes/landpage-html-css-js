@@ -1,0 +1,232 @@
+@media (max-width:1100px){
+    .section-2-box{
+        grid-template-columns: repeat(2,1fr);
+        width: 660px;
+        gap: 10px;   
+    }
+    .items-section-2{
+        width: 100%;
+    }
+    .content-footer{
+        width: 100%;    
+    } 
+}
+@media (max-width:950px){
+    .items-menu{
+        height: 60px;
+    }
+    .items-menu ul li {
+        line-height: 60px;
+    }
+    .items-menu ul li a{
+        font-size: 16px;
+    }
+    .caixa-busca input{
+        
+        height: 36px;
+        text-indent: 10px;
+        margin-top: 12px;
+    }
+    .imagens-slider img{
+        height: 400px;
+    
+    }
+    .slick-prev{
+        background-image: none;
+    }
+    .slick-next{
+        background-image: none;
+    }
+   
+    .linha{
+        display: none;
+    }
+    
+}
+@media (max-width:850px){
+    .cabecalho-items{
+        height: 40px;  
+    }
+    .cabecalho-items ul li{
+        padding: 8px 10px;
+    }
+    .cabecalho-items ul li a i {
+        font-size: 20px;
+    }
+    .logo{
+        padding: 10px;
+    }
+    .logo img{
+        height: 20px;   
+    }
+    .items-menu{
+        height: 50px;    
+    }
+    .items-menu ul li{
+        line-height: 50px;
+    }
+    .caixa-busca input{
+        width: 35px;
+        height: 36px;
+        text-indent: 10px;
+        
+        border: none;
+        font-size: 0px;
+        margin-top: 10px;  
+    }
+    .caixa-busca input:active,input:focus,input:hover{
+        width:190px;
+        font-size: 16px;
+        border: 2px solid rgba(177, 177, 177, 0.233); 
+       
+    }
+    .slick-dots{
+        top: 87%;
+    }
+    .slick-dots li button{
+        height: 15px;
+        width: 15px;
+    }
+    .imagens-slider img{
+        height: 300px;
+    }
+    .icon p{
+        text-align:left;
+    }
+    .section-2-box{
+        grid-template-columns: 1fr;
+        width: 320px;
+    }
+    .copyright p{
+        font-size: 13px;
+    }
+    .paragrafo-footer{
+        font-size: 12px;
+    }
+    .paragrafo-relogio p{
+        font-size: 11px;
+    }
+    .informacoes p{
+        font-size: 11px;
+    }
+    .Footer-2-box nav ul li a i{
+        font-size: 15px;
+    }
+    .Footer-2-box{
+        height: 50px;
+        line-height: 50px;
+    }
+    .Footer-2-box ul{
+        margin-right: 0px;
+    }
+}
+
+
+@media (max-width:625px){
+    .checkbtn{
+        display: block;
+        line-height: 40px;
+        margin-left: 20px;
+    }
+    .items-menu{
+        height: 40px;
+    }
+   
+    .items-menu ul{
+        position: fixed;
+        width: 110%;
+        height: 300px;
+        font-weight: bold;
+        background-color: rgb(255, 255, 255);
+        border-bottom: 3px solid turquoise;
+        left: 130%;
+        top: 10%;
+        text-align: center;
+        transition: all .5s;
+        
+    }
+    .items-menu ul li{
+        display: block;
+        
+        line-height: 40px;
+        
+    }
+    .caixa-busca input{
+        margin-top: 5px;
+        
+    }
+    input[type="checkbox"]:checked ~ ul {
+        left: -10%;
+        position: absolute;
+        z-index: 10;
+    }
+
+    .cabecalho-items ul li{
+        padding: 8px 5px;
+    }
+    .cabecalho-items ul li a i {
+        font-size: 15px;
+    }
+    .cabecalho-items{
+        width: 97%;
+    }
+    .logo img{
+        width: 80px;
+        height: 20px;
+    }
+    .items-menu{
+        max-width: 97%;
+        grid-template-columns: 1fr 10px;
+    }
+          
+    .icons-box{
+        grid-template-columns: 1fr;
+    }
+    .copyright p{
+        font-size: 10px;
+    }
+    .Footer-2-box nav ul li a i{
+        font-size: 12px;
+    }
+    .Footer-2-box ul{
+        margin-right: 0px;
+    }
+    
+}
+@media (max-width:450px){   
+    .items-menu ul li{
+        margin-left: 2px;
+    }
+    
+    .imagens-slider img{
+        height: 200px;
+    }
+    .slick-dots{
+        top: 80%;
+        left: 42%;
+    }
+    .slick-dots li button{
+        height: 12px;
+        width: 12px;
+        
+    }
+    
+    .titulo h1{
+        font-size: 25px;
+    }
+    .titulo h1 strong{
+        font-size: 25px;
+    }
+    .titulo p{
+        margin-left: 15%;
+        margin-right: 15%;
+        
+    }
+    .items-section-2 img{
+        width: 100%;
+        
+        height: 160px;
+        
+        
+    }
+}

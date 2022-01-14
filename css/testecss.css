@@ -1,0 +1,400 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial ; 
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+
+/*CABEÇALHO*/
+.Cabecalho{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.884);
+}
+.cabecalho-items{
+    width: 85%;
+    margin: 0 auto;
+    height: 60px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.cabecalho-items ul{
+    
+    text-align: right;  
+    
+}
+.cabecalho-items ul li{
+    display: inline-block;
+    padding: 15px 10px;
+    
+}
+.cabecalho-items ul li a{
+    color: rgb(190, 190, 190); 
+    
+}
+.logo{
+    padding:15px;
+    float: left;
+      
+}
+.logo img{
+    width: 115px;
+    height: 25px;
+}
+
+/*MENU PRINCIPAL*/
+.Menu-Principal{
+    width: 100%;
+    
+}
+.items-menu{
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    border-bottom: 3px solid rgba(194, 194, 194, 0.288);
+    
+}
+.items-menu ul{
+    float: left;
+    margin-left: 8%;
+}
+.items-menu ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin:0 5px;
+}
+.items-menu ul li a{
+    color: rgb(146, 146, 146);
+    text-decoration: none;
+    font-size: 18px;
+}
+.checkbtn{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    float: left;
+    line-height: 80px;
+    margin-left: 40px;
+    cursor: pointer;
+    display:none; 
+}
+#check{
+    display: none;
+}
+.caixa-busca input{
+    width: 190px;
+    position: absolute;
+    right: 7%;
+    height: 36px;
+    margin-top: 20px;
+    border-color: rgba(177, 177, 177, 0.233);
+    font-size: 13px;
+    text-indent: 20px;
+    background-image: url("../img/baixados.png");
+    background-size: 26px;
+    background-repeat: no-repeat;
+    background-position-x: 96%;
+    background-position-y: center;
+    outline: none;
+}
+.items-menu ul li a:hover{
+    color: rgb(22, 216, 216);
+    padding-bottom: 28px;
+    border-bottom: 2px solid turquoise;
+}
+
+
+.slick-prev {
+    font-size: 0px;
+    border: none;
+    height: 55px;
+    width: 29px;
+    background-color: transparent;
+    z-index: 9;
+    position: absolute;
+    background-image: url(../img/anterior.png);
+    top: 33%;
+    left: 14%;
+    cursor: pointer;
+     
+}
+.slick-next {
+    font-size: 0px;
+    border: none;
+    height: 53px;
+    width: 29px;
+    background-color: transparent;
+    z-index: 9;
+    position: absolute;
+    background-image: url(../img/proximo.png);
+    top: 33%;
+    right: 14%;
+    cursor: pointer; 
+}
+.slick-dots li button{
+    display: inline-block;
+    font-size: 0px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 20px;
+    background-color: transparent;
+    height: 20px;
+    cursor: pointer;
+    
+}
+li.slick-active button{
+    background-color: aqua;    
+}
+.slick-dots li{
+    display: inline-block;
+    padding-left: 15px;
+    border: transparent;
+}
+button:focus{
+    outline: none;
+}
+.slick-dots{
+    margin:0 auto;
+    width: 50%;
+    position: absolute;
+    left: 45%;
+    top: 90%;  
+}
+.titulo strong{
+    font-size: 30px;
+}
+.titulo h1{
+    font-size: 30px;
+    font-weight:lighter;
+    text-align: center;
+    text-transform: uppercase;
+    color: #646464;
+    margin-top: 20px;
+}
+.titulo p{
+    color: #9a9a9a;
+    text-align: center;
+    font: 18px arial;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 13%;
+    margin-right: 13%;
+    
+}
+.Section-1{
+    height: 100%;
+}
+.icons-box{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin:  auto;
+    max-width: 82%;    
+    
+}
+.icon{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+    text-align:center;
+}
+.icon h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #646464;   
+}
+.icon p{
+    color: #9a9a9a;
+    font-size: 16px;
+}
+.icon i{
+    font-size: 120px; 
+    color: #9a9a9a6e  
+}
+.icon i:hover{
+    color: turquoise;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: .3s;
+
+}
+    
+.Section-2{
+    
+    width: 100%;
+    background-color: #eeeeee;
+    
+}
+
+.Section-2:before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 49px;
+    background: #ffffff;
+    background-image: url('../img/triangulo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+    
+}
+.section-2-box{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 82%;
+    margin:  auto;
+    gap: 25px;
+}
+.items-section-2{
+    width: 100%;
+    height: 320px;   
+    
+}
+.items-section-2 img{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+.items-section-2 h3 {
+    font-size: 20px;
+    color: #797878;
+    text-indent: 30px;
+    margin-top: 10px;
+}
+.items-section-2 p{
+    font-size: 16px;
+    color: #818181;
+    margin-left: 30px;
+}
+.Partners{
+    width: 100%;
+ 
+}
+.partners-icones{
+    width: 82%;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);  
+    gap: 5px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.partners-icones figure{
+    margin:  auto; 
+        
+}
+.partners-icones img{
+    cursor: pointer;
+    width: 100%;
+}
+.partners-icones img:hover{
+    margin-top: 7px;
+    transition: .1s;
+}
+
+.Footer-1{
+    height: 360px;
+    width: 100%;
+    background-color: #504d4d;
+    
+}
+.Footer-1-box{
+    width: 82%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    color: white;
+    gap: 15px; 
+    
+}
+.Footer-1-box h3{
+    font-size: 20px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    font-weight: normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+.paragrafo-footer{
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.paragrafo-relogio{
+    display: inline-block;     
+}
+.paragrafo-relogio p{
+    color: #898989;
+    font-size: 13px;   
+    float: right; 
+    text-indent: 10px;
+}
+
+.relogio {
+    float: left;
+}
+.linha{
+    margin-bottom: 7px;
+}
+.content-footer{
+    width: 200px;
+    height: 230px;
+    
+}
+.informacoes{
+    display: inline-block;
+}
+.informacoes img{
+    float: left;
+   
+}
+.informacoes p{
+    float: right;
+    text-align: right;
+    font-size: 16px;
+    text-indent: 15px;
+    
+}
+#email{
+    text-indent: 12px;
+}
+.Footer-2{
+    width: 100%;
+    background-color: #181717;
+}
+.Footer-2-box{
+    width: 82%;
+    margin:  auto;
+    height: 80px;
+    line-height: 80px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    
+}
+
+.copyright p{
+    float: left;
+    color: rgb(190, 190, 190);
+    font-size: 15px;
+    
+}
+.Footer-2-box ul{
+    float:right;
+    margin-right: 10%;
+     
+}
+.Footer-2-box ul li{
+    display: inline-block;
+    color: white;
+    margin-left: 15px;
+    
+    
+}
+.Footer-2-box ul li a{
+    color: rgb(190, 190, 190);
+}
+
