@@ -1,4 +1,4 @@
-# landpage-html-css-js
+# Landing page website WebWorld
 <div display = 'flex'>
   <img  src="https://user-images.githubusercontent.com/77676047/149640076-10e6dc31-bb0c-4c0a-ba69-54fc94e24c8f.png" alt="gallery" height="300" />  
   <img src="https://user-images.githubusercontent.com/77676047/149640075-45a37ba0-8969-45bb-8646-67ff55f9452f.png" alt="mobile-close" height="300" />  
